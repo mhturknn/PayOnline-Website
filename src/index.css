@@ -101,7 +101,7 @@ code {
   display: flex;
   flex-direction: row;
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
   text-align: left !important;
   align-items: center;
   list-style: none;
@@ -284,7 +284,7 @@ code {
 .welcome-notif {
   position: fixed;
   right: 0;
-  top: 4%;
+  top: 2%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -298,7 +298,7 @@ code {
   border: 1px solid #388e3c;
   border-left: 5px solid #388e3c;
   font-size: 12px;
-  z-index: 99;
+  z-index: 101;
   transition: all 0.4s;
 }
 
