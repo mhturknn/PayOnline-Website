@@ -7,7 +7,6 @@ function Loginpage(props) {
   const { loginWithRedirect, isAuthenticated, isLoading, user } = useAuth0();
   const newValue = isAuthenticated ? true : false;
   props.isAuth(newValue);
-  const userInfos = user ? user : "";
   props.userInfo(user);
 
   return (

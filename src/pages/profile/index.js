@@ -9,7 +9,7 @@ function ProfilePage({ data }) {
       <Typography textAlign={"center"}>
         Your Profile
         <Box className="profilepage-box">
-          <img src={data?.picture} style={{ borderRadius: "1rem" }} />
+          <img src={data?.picture} style={{ borderRadius: "1rem" }} alt="" />
           <Typography>{data?.name}</Typography>
           <Typography>{data?.email}</Typography>
           <Typography textTransform={"uppercase"}>{data?.locale}</Typography>

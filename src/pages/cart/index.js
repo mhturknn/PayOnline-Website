@@ -1,9 +1,8 @@
 import { Box, Button, Typography } from "@mui/material";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 function Cart() {
-  const [promise, setPromise] = useState(false);
   let cartArray = JSON.parse(localStorage.getItem("cartArr"));
   let priceArray = cartArray.map((item) => item.product.price);
   let totalPrice = 0;
@@ -22,7 +21,6 @@ function Cart() {
     });
     localStorage.removeItem("cartArray");
     localStorage.removeItem("cartCount");
-    setPromise(true);
   }
   const handleFinished = () => {
     Completed();

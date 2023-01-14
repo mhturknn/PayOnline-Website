@@ -1,10 +1,8 @@
-import { useAuth0 } from "@auth0/auth0-react";
 import { Box, Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 
 function WelcomepageNotif({ data }) {
-  const { logout } = useAuth0();
   const [loading, setLoad] = useState(true);
 
   useEffect(() => {

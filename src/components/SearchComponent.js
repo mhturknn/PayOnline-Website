@@ -1,11 +1,4 @@
-import {
-  Box,
-  IconButton,
-  List,
-  ListItemText,
-  ListItem,
-  Typography,
-} from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React from "react";
 
 function SearchComponent({ data }) {
@@ -16,6 +9,7 @@ function SearchComponent({ data }) {
       {data?.products.map((item, i) => {
         return (
           <Box
+            key={i}
             style={{
               display: "flex",
               flexDirection: "column",
