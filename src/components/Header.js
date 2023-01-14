@@ -6,9 +6,9 @@ import SearchIcon from "@mui/icons-material/SearchOutlined";
 import axios from "axios";
 import SearchComponent from "./SearchComponent";
 function Header(props) {
-  const { logout } = useAuth0();
   const [inputValue, setValue] = useState();
   const [searchData, setSearchData] = useState([]);
+  const { logout } = useAuth0();
 
   const handleChange = (event) => {
     setValue(event?.target?.value);
