@@ -1,8 +1,7 @@
-# Getting Started with Create React App
+# Projenin Çalışması için localhost:3000/ portunda çalıştırılmalıdır.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Scripts / (npm run start kulllanarak projeyi ayağa kaldırabilirsiniz)
 
 In the project directory, you can run:
 
